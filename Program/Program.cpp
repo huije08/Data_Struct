@@ -3,81 +3,38 @@
 using namespace std;
 
 template <typename T>
+
 class List
 {
 private:
-    struct Node
-    {
-        T data;
-        Node* next;
-    };
+	struct Node
+	{
+		T data;
+		Node* next;
+		Node* previous;
+	};
 
-    int size;
+	int size;
+	Node* head;
+	Node* tail;
 
-    Node* head;
 
 public:
-    List()
-    {
-        size = 0;
-        head = nullptr;
-    }
+	List()
+	{
+		size = 0;
+		head = nullptr;
+		tail = nullptr;
 
-    void push_front(T data)
-    {
-        Node* newNode = new Node;
-
-        newNode->data = data;
-
-        if (head == nullptr)
-        {
-            head = newNode;
-
-            newNode->next = nullptr;
-        }
-        else
-        {
-            newNode->next = head;
-
-            head = newNode;
-        }
-
-        size++;
-    }
-
-    void pop_front()
-    {
-        if (head == nullptr)
-        {
-            cout << "Linked List is empty" << endl;
-        }
-        else
-        {
-            Node* deleteNode = head;
-
-            head = deleteNode->next;
-
-            delete deleteNode;
-
-            size--;
-        }
-    }
-
-    void push_back(T data)
-    {
-
-    }
+	};
+	
 };
+
 
 int main()
 {
-    List<int> list;
-    list.push_front(10);
-    list.push_front(5);
-    list.pop_front();
-    list.pop_front();
-    list.pop_front();
-    
+	List<int> list;
 
-    
+	return 0;
+
 }
