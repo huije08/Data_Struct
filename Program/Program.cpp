@@ -1,40 +1,35 @@
 ﻿#include <iostream>
 
 using namespace std;
-
 template <typename T>
 
-class List
+class Vector
 {
 private:
-	struct Node
-	{
-		T data;
-		Node* next;
-		Node* previous;
-	};
+	int count;
+	int capacity;
 
-	int size;
-	Node* head;
-	Node* tail;
-
+	T* pointer;
 
 public:
-	List()
+	Vector()
 	{
-		size = 0;
-		head = nullptr;
-		tail = nullptr;
+		count = 0;
+		capacity = 0;
+		pointer = nullptr;
+	}
 
-	};
-	
+	void resize(int newSize)
+	{
+
+	}
+
 };
 
 
 int main()
 {
-	List<int> list;
-
+	
 	return 0;
 
 }
