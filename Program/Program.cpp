@@ -3,28 +3,63 @@
 using namespace std;
 template <typename T>
 
-class Vector
+class Stack
 {
 private:
-	int count;
+	int highset;
 	int capacity;
 
 	T* pointer;
-
 public:
-	Vector()
+	
+	Stack()
 	{
-		count = 0;
+		highset = -1;
 		capacity = 0;
-		pointer = nullptr;
+
+		container = nullptr;
+
 	}
 
 	void resize(int newSize)
 	{
+		capacity = newsize;
 
+		T* temporary = new T[capacity];
+
+		for (int i = 0; i < capacity; i++)
+		{
+			temporary[i] = NULL;
+		}
+
+
+		for (int i = 0; i < count; i++)
+		{
+			temporary[i] = pointer[i];
+		}
+
+		delete[]pointer;
+
+		pointer = temporary;
+	}
+
+	void push(T data)
+	{
+		if (cpapcity <= 0)
+		{
+			resize(1);
+		}
+		else if (highset >= capacity)
+		{
+			resize(capacity * 2);
+		}
+
+		pointer[highset++] = data;
 	}
 
 };
+
+
 
 
 int main()
