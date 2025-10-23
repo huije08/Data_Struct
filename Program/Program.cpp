@@ -3,68 +3,50 @@
 using namespace std;
 template <typename T>
 
-class Stack
+#define SIZE 5
+
+class Queue
 {
 private:
-	int highset;
-	int capacity;
+	int rear;
+	int front;
 
-	T* pointer;
+	T container[SIZE];
 public:
-	
-	Stack()
+	Queue()
 	{
-		highset = -1;
-		capacity = 0;
+		rear = 0;
+		front = 0;
 
-		container = nullptr;
-
-	}
-
-	void resize(int newSize)
-	{
-		capacity = newsize;
-
-		T* temporary = new T[capacity];
-
-		for (int i = 0; i < capacity; i++)
+		for (int i = 0; i < SIZE; i++)
 		{
-			temporary[i] = NULL;
+			container[i] = NULL;
 		}
-
-
-		for (int i = 0; i < count; i++)
-		{
-			temporary[i] = pointer[i];
-		}
-
-		delete[]pointer;
-
-		pointer = temporary;
 	}
 
 	void push(T data)
 	{
-		if (cpapcity <= 0)
+		if (true)
 		{
-			resize(1);
-		}
-		else if (highset >= capacity)
-		{
-			resize(capacity * 2);
-		}
 
-		pointer[highset++] = data;
+		}
 	}
 
+	void pop()
+	{
+	
+	}
+
+	const bool& empty()
+	{
+
+	}
 };
-
-
 
 
 int main()
 {
-	
+
 	return 0;
 
 }
