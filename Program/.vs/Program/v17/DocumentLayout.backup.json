@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{305176ED-53BA-46FC-A352-244180E4681A}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FDD12688-8671-45BC-BE3A-F7E4780AF67A}|..\\Class6th (Linear Queue)\\Class6th (Linear Queue).vcxproj|C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Data_Struct\\Class6th (Linear Queue)\\Class6th (Linear Queue).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A8D72C5C-7E34-425E-8132-00C5E9BFB7A8}|..\\Class5th (Stack)\\Class5th (Stack).vcxproj|C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Data_Struct\\Class5th (Stack)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -29,24 +32,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Data_Struct\\Class5th (Stack)\\Source.cpp",
-              "RelativeDocumentMoniker": "..\\Class5th (Stack)\\Source.cpp",
-              "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Data_Struct\\Class5th (Stack)\\Source.cpp",
-              "RelativeToolTip": "..\\Class5th (Stack)\\Source.cpp",
-              "ViewState": "AgIAACMAAAAAAAAAAAAowHIAAAABAAAAAAAAAA==",
+              "Title": "Class6th (Linear Queue).cpp",
+              "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Data_Struct\\Class6th (Linear Queue)\\Class6th (Linear Queue).cpp",
+              "RelativeDocumentMoniker": "..\\Class6th (Linear Queue)\\Class6th (Linear Queue).cpp",
+              "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Data_Struct\\Class6th (Linear Queue)\\Class6th (Linear Queue).cpp",
+              "RelativeToolTip": "..\\Class6th (Linear Queue)\\Class6th (Linear Queue).cpp",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-23T10:01:08.284Z",
+              "WhenOpened": "2025-10-24T09:21:05.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Data_Struct\\Class5th (Stack)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class5th (Stack)\\Source.cpp",
+              "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Data_Struct\\Class5th (Stack)\\Source.cpp",
+              "RelativeToolTip": "..\\Class5th (Stack)\\Source.cpp",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAHIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-23T10:01:08.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Class4th (Vector).cpp",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Data_Struct\\Class4th (Vector)\\Class4th (Vector).cpp",
               "RelativeDocumentMoniker": "..\\Class4th (Vector)\\Class4th (Vector).cpp",
@@ -54,12 +68,11 @@
               "RelativeToolTip": "..\\Class4th (Vector)\\Class4th (Vector).cpp",
               "ViewState": "AgIAAE4AAAAAAAAAAAAAADYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-22T10:13:01.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T10:13:01.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Data_Struct\\Class3th(Circle Linked List)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class3th(Circle Linked List)\\Source.cpp",
@@ -71,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Data_Struct\\Class2th (Double Linked List)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class2th (Double Linked List)\\Source.cpp",
@@ -83,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Data_Struct\\Class1th (Single Linked List)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class1th (Single Linked List)\\Source.cpp",
@@ -101,7 +114,6 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Data_Struct\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAowBwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-15T09:07:27.038Z",
               "EditorCaption": ""
