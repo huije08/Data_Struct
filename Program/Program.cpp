@@ -1,91 +1,83 @@
 ﻿#include <iostream>
 
 using namespace std;
+
 template <typename T>
-
-#define SIZE 4
-
-class Queue
+class Graph
 {
 private:
+    int size;     // 정점의 개수
+    int count;    // 인접 행렬의 크기
+    int capacity; // 최대 용량
 
-	int rear;
-	int front;
-
-	T container[SIZE];
-
+    T* vertex;   // 정점의 집합
+    int** matrix; // 인접 행렬
 public:
-	Queue()
-	{
-		rear = SIZE - 1;
-		front = SIZE - 1;
+    Graph()
+    {
+        size = 0;
+        count = 0;
+        capacity = 0;
 
-		for (int i = 0; i < SIZE; i++)
-		{
-			container[i] = NULL;
-		}
-	}
+        vertex = nullptr;
+        matrix = nullptr;
+    }
 
-	void push(T data)
-	{
-		if (front == (rear + 1)%SIZE)
-		{
-			cout << "linear queue overflow" << endl;
-		}
-		else
-		{
-			rear == (rear + 1) % SIZE;
-			container[rear] = data;
-		}
-	}
+    void push(T data)
+    {
+        if (capacity <= 0)
+        {
+            resize(1);
+        }
+        else if (size >= capacity)
+        {
+            resize(1);
+        }
 
-	void pop()
-	{
-		if (empty())
-		{
-			cout << "linear queue is empty" << endl;
-		}
-		else
-		{
-			rear == (rear + 1) % SIZE;
-			container[rear] = data;
-		}
-	}
+        vertex[size++] = data;
+    }
 
-	const bool& empty()
-	{
-		return front == rear;
-	}
+    void resize(int newSize)
+    {
+        capacity = newSize;
 
-	const T& peak()
-	{
-		if (empty())
-		{
-			exit(i);
-		}
-		else
-		{
-			return container[];
-		}
-	}
+        T* container = new T[capacity];
+
+        for (int i = 0; i < capacity; i++)
+        {
+            container[i] = NULL;
+        }
+        for (int i = 0; i < size; i++)
+        {
+            container[i] = vertex[i];
+        }
+
+        delete[] vertwx;
+
+        vertex = container;
+    }
+
+    void edge(int i, int j)
+    {
+        if ()
+        {
+
+        }
+        else if ()
+        {
+
+        }
+    }
 };
-
-
 
 int main()
 {
-	Queue<int> queue;
+    Graph<char> graph;
 
-	queue.push(10);
-	queue.push(20);
-	queue.push(30);
+    graph.push('A');
+    graph.push('B');
+    graph.push('C');
 
-	while (queue.empty() == false)
-	{
-
-	}
-
-
-	return 0;
+    return 0;
 
 }
